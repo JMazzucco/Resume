@@ -1,0 +1,102 @@
+
+body {
+	 background: -webkit-linear-gradient(top, white, #777378);
+} 
+
+span {
+	color: white;
+	font-size: 1.5em;
+}
+
+.header {
+	font-family: 'Playfair Display', serif;
+	background-color: #777378;
+	color: #DAD4DE;
+	margin: auto;
+	margin-top: 15px;
+	border-radius: 10px;
+	border: 2px solid white;
+	position: fixed;
+	height: 110px;
+	left: 5%;           
+    right: 5%; 
+	padding-bottom: 0;
+	padding-top:0;
+    }
+
+.header h1 {
+	text-align: center;
+	font-size: 3.5em;
+	margin-top: -10px;
+
+  }
+.header div {
+	text-align: right;
+	vertical-align: center;
+	margin-top: -60px;
+	margin-right: 10px;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+}
+
+#email {
+
+	width: 25px;
+	height: 25px;
+	margin-bottom: 3px;
+}
+
+#container {
+	margin: -16px auto 0 auto;
+	width: 80%;
+	height: 100%;
+	background-color: #D9E9FF;
+	border-radius: 0px 0px 25px 25px;
+	border: 2px solid white;
+}
+
+
+
+table {
+	padding: 130px 10px 10px 10px;
+
+}
+
+td {
+	width: 50%;
+	vertical-align: top;
+	padding: 10px;
+
+
+}
+
+.border-top{
+	border-top: 2px dashed white;
+}
+
+.border-right{
+	border-right: 2px dashed white;
+
+}
+
+.footer {
+	clear: both;
+	background-color: #0099FF;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:hover {
+	color: #DAD4DE;
+	text-decoration: underline;
+}
